@@ -83,5 +83,4 @@ class Engine(object):
         self._start_engine()
         stop = datetime.now()
         logger.info("引擎停止时间{}".format(stop))
-        # 需要使用total_Seconds转换成秒
         logger.info("爬虫运行时间{}".format((stop-start).total_seconds()))
