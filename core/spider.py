@@ -1,4 +1,4 @@
-#coding:utf-8
+ #coding:utf-8
 '''
  爬虫组件
      构建请求信息(初始的)，也就是生成请求对象(Request)
